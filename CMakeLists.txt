@@ -7,8 +7,8 @@ cmake_minimum_required(VERSION 3.5)
 
 project(arabica)
 
-# Enable C++14 support
-set(CMAKE_CXX_STANDARD 14)
+# Enable C++17 support
+set(CMAKE_CXX_STANDARD 17)
 
 set(LIB_NAME arabica)
 
@@ -203,8 +203,6 @@ set(PUBLIC_HEADER_FILES
   include/SAX/wrappers/saxlibxml2.hpp
   include/SAX/wrappers/saxmsxml2.hpp
   include/SAX/wrappers/saxxerces.hpp
-  include/SAX/wrappers/XercesFeatureNames.hpp
-  include/SAX/wrappers/XercesPropertyNames.hpp
   include/DOM/Attr.hpp
   include/DOM/CDATASection.hpp
   include/DOM/CharacterData.hpp
